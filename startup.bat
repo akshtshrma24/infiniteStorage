@@ -16,3 +16,5 @@ docker tag %IMAGE_ID% %REPO:savefiles%
 docker login --username %USERNAME% --password %PASSWORD%
 
 docker push %REPO:savefiles%
+
+rmdir uploads

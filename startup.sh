@@ -13,3 +13,5 @@ docker tag "$(docker images | awk '{print $3}' | awk 'NR==2')" $REPO:savefiles
 docker login --username $USERNAME --password $PASSWORD
 
 docker push $REPO:savefiles
+
+rm -rf uploads
