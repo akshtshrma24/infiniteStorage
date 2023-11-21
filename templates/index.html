@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+    <link rel="stylesheet" href="{{ request.url_for('static', path='styles.css') }}">
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form action="/uploadfile/" method="post" enctype="multipart/form-data" onsubmit="return uploadFile()">
+        <input type="file" name="file" accept="*/*">
+        <input type="submit" value="Upload File">
+    </form>
+
+    <script>
+        function uploadFile() {
+            alert("File uploaded!");
+            return true;  // Allow the form to be submitted
+        }
+    </script>
+</body>
+</html>
