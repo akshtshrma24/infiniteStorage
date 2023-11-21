@@ -1,7 +1,7 @@
 @echo off
 set USERNAME=""
 set PASSWORD=""
-set REPO="doctorawal/infinitestorage"
+set REPO=""
 
 pip install fastapi uvicorn python-multipart Jinja2
 

@@ -1,6 +1,6 @@
 USERNAME=""
 PASSWORD=""
-REPO="doctorawal/infinitestorage"
+REPO=""
 
 pip install fastapi uvicorn python-multipart Jinja2
 
