@@ -2,7 +2,7 @@ USERNAME=""
 PASSWORD=""
 REPO=""
 
-pip install fastapi uvicorn python-multipart Jinja2
+pip install fastapi uvicorn python-multipart 
 
 uvicorn api:app --host 0.0.0.0 --port 8000 
 
